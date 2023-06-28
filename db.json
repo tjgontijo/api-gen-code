@@ -1,0 +1,1094 @@
+{
+    "types": [
+        {
+            "id": "1",
+            "name": "Material"
+        },
+        {
+            "id": "2",
+            "name": "Serviço"
+        }
+    ],
+    "groups": [
+    {
+        "id": "1",
+        "type_id": "1",
+        "name": "Armamento Letal"
+    },
+    {
+        "id": "2",
+        "type_id": "1",
+        "name": "Armamento Não-letal"
+    },
+    {
+        "id": "3",
+        "type_id": "1",
+        "name": "Equipamentos de Proteção Individual"
+    },
+    {
+        "id": "4",
+        "type_id": "1",
+        "name": "Instrumentos e Equipamentos Próprios de Socorrista"
+    },
+    {
+        "id": "5",
+        "type_id": "1",
+        "name": "Instrumentos e Equipamentos de Análises Forense"
+    },
+    {
+        "id": "6",
+        "type_id": "1",
+        "name": "Mobiliário e Eletrodomésticos"
+    },
+    {
+        "id": "7",
+        "type_id": "1",
+        "name": "Mobilidade"
+    },
+    {
+        "id": "8",
+        "type_id": "1",
+        "name": "Munições"
+    },
+    {
+        "id": "9",
+        "type_id": "1",
+        "name": "Radiocomunicações"
+    },
+    {
+        "id": "10",
+        "type_id": "1",
+        "name": "Saúde no Trabalho"
+    },
+    {
+        "id": "11",
+        "type_id": "1",
+        "name": "Semoventes"
+    },
+    {
+        "id": "12",
+        "type_id": "1",
+        "name": "Tecnologia da Informação"
+    },
+    {
+        "id": "13",
+        "type_id": "2",
+        "name": "Contratação de Empresa Especializada"
+    }
+],
+    "classes": [
+    {
+        "id": "1",
+        "group_id": "1",
+        "name": "Acessórios de Pontaria"
+    },
+    {
+        "id": "2",
+        "group_id": "1",
+        "name": "Arma Curta"
+    },
+    {
+        "id": "3",
+        "group_id": "1",
+        "name": "Arma Longa"
+    },
+    {
+        "id": "4",
+        "group_id": "2",
+        "name": "Equipamentos Individuais"
+    },
+    {
+        "id": "5",
+        "group_id": "3",
+        "name": "Vestuário Operacional e Acessórios"
+    },
+    {
+        "id": "6",
+        "group_id": "4",
+        "name": "Combate a Incêndio Florestal"
+    },
+    {
+        "id": "7",
+        "group_id": "4",
+        "name": "Combate a Incêndio Urbano"
+    },
+    {
+        "id": "8",
+        "group_id": "4",
+        "name": "Proteção Individual para Combate a Incêndio Florestal"
+    },
+    {
+        "id": "9",
+        "group_id": "4",
+        "name": "Proteção Individual para Combate a Incêndio Urbano"
+    },
+    {
+        "id": "10",
+        "group_id": "4",
+        "name": "Proteção Individual para Resgate e Salvamento"
+    },
+    {
+        "id": "11",
+        "group_id": "4",
+        "name": "Proteção Respiratória"
+    },
+    {
+        "id": "12",
+        "group_id": "4",
+        "name": "Resgate e Salvamento Aéreo"
+    },
+    {
+        "id": "13",
+        "group_id": "4",
+        "name": "Resgate e Salvamento Aquático"
+    },
+    {
+        "id": "14",
+        "group_id": "4",
+        "name": "Resgate e Salvamento Terrestre"
+    },
+    {
+        "id": "15",
+        "group_id": "4",
+        "name": "Resposta a Desastres"
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos de Proteção"
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Cadeia de Custódia e seus Insumos"
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Criminalística e seus Insumos"
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Genética Forense e seus Insumos"
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Laboratórios Forenses e seus Insumos "
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Medicina Legal e seus Insumos "
+    },
+    {
+        "id": "16",
+        "group_id": "5",
+        "name": "Equipamentos e Aparelhos para Papiloscopia e seus Insumos"
+    },
+    {
+        "id": "17",
+        "group_id": "6",
+        "name": "Eletrodoméstico"
+    },
+    {
+        "id": "18",
+        "group_id": "6",
+        "name": "Mobiliário"
+    },
+    {
+        "id": "19",
+        "group_id": "7",
+        "name": "Aeronave"
+    },
+    {
+        "id": "20",
+        "group_id": "7",
+        "name": "Embarcação de Pequeno Porte"
+    },
+    {
+        "id": "21",
+        "group_id": "7",
+        "name": "Embarcação Rígida e Semirígida"
+    },
+    {
+        "id": "22",
+        "group_id": "7",
+        "name": "Motocicleta | Motoneta e Bicicleta"
+    },
+    {
+        "id": "23",
+        "group_id": "7",
+        "name": "Veículo Especial"
+    },
+    {
+        "id": "24",
+        "group_id": "7",
+        "name": "Veículo Leve (NT SENASP nº 06/2022)"
+    },
+    {
+        "id": "25",
+        "group_id": "7",
+        "name": "Veículo Pesado"
+    },
+    {
+        "id": "26",
+        "group_id": "8",
+        "name": "Munição Letal"
+    },
+    {
+        "id": "27",
+        "group_id": "8",
+        "name": "Munição Não-letal"
+    },
+    {
+        "id": "28",
+        "group_id": "9",
+        "name": "Equipamentos de comunicação"
+    },
+    {
+        "id": "29",
+        "group_id": "10",
+        "name": "Equipamentos e Aparelhos para Saúde no Trabalho"
+    },
+    {
+        "id": "30",
+        "group_id": "11",
+        "name": "Animal de Grande Porte"
+    },
+    {
+        "id": "31",
+        "group_id": "11",
+        "name": "Animal de Pequeno Porte"
+    },
+    {
+        "id": "32",
+        "group_id": "12",
+        "name": "Áudio e Vídeo"
+    },
+    {
+        "id": "33",
+        "group_id": "12",
+        "name": "Computador"
+    },
+    {
+        "id": "34",
+        "group_id": "12",
+        "name": "Impressão"
+    },
+    {
+        "id": "35",
+        "group_id": "12",
+        "name": "Redes"
+    },
+    {
+        "id": "36",
+        "group_id": "12",
+        "name": "Software"
+    },
+    {
+        "id": "37",
+        "group_id": "13",
+        "name": "Arquitetura e Serviços de Engenharia"
+    },
+    {
+        "id": "38",
+        "group_id": "13",
+        "name": "Comunicação Social"
+    },
+    {
+        "id": "39",
+        "group_id": "13",
+        "name": "Eventos"
+    },
+    {
+        "id": "40",
+        "group_id": "13",
+        "name": "Formação e Capacitação"
+    },
+    {
+        "id": "41",
+        "group_id": "13",
+        "name": "Gestão e Governança"
+    },
+    {
+        "id": "42",
+        "group_id": "13",
+        "name": "Obras e Manutenção Predial"
+    },
+    {
+        "id": "43",
+        "group_id": "13",
+        "name": "Radiocomunicação"
+    },
+    {
+        "id": "44",
+        "group_id": "13",
+        "name": "Segurança e Saúde no Trabalho do Profissional de Segurança Pública"
+    },
+    {
+        "id": "45",
+        "group_id": "13",
+        "name": "Tecnologia da Informação"
+    }
+],
+    "items": [
+    {
+        "id": "1",
+        "class_id": "1",
+        "name": "Aparelho do tipo: Luneta; Óptico; Red Dot; Optrônicos em Geral",
+        "cod_senasp": "MAT.01.001.0001"
+    },
+    {
+        "id": "2",
+        "class_id": "2",
+        "name": "Pistola",
+        "cod_senasp": "MAT.01.002.0002"
+    },
+    {
+        "id": "3",
+        "class_id": "3",
+        "name": "Carabina",
+        "cod_senasp": "MAT.01.003.0003"
+    },
+    {
+        "id": "4",
+        "class_id": "3",
+        "name": "Espingarda",
+        "cod_senasp": "MAT.01.003.0004"
+    },
+    {
+        "id": "5",
+        "class_id": "3",
+        "name": "Fuzil",
+        "cod_senasp": "MAT.01.003.0005"
+    },
+    {
+        "id": "6",
+        "class_id": "3",
+        "name": "Sub-metralhadora",
+        "cod_senasp": "MAT.01.003.0006"
+    },
+    {
+        "id": "7",
+        "class_id": "4",
+        "name": "Algema Metálica ou Plástica ",
+        "cod_senasp": "MAT.02.004.0007"
+    },
+    {
+        "id": "8",
+        "class_id": "4",
+        "name": "Arma Eletroeletrônica de Incapacitação Neuromuscular (NT SENASP nº 02/2020)",
+        "cod_senasp": "MAT.02.004.0008"
+    },
+    {
+        "id": "9",
+        "class_id": "4",
+        "name": "Bastão Antitumulto (Tonfa e Bastão Retrátil)",
+        "cod_senasp": "MAT.02.004.0009"
+    },
+    {
+        "id": "10",
+        "class_id": "4",
+        "name": "Escudo (Proteção Balística e Controle de Distúrbios)",
+        "cod_senasp": "MAT.02.004.0010"
+    },
+    {
+        "id": "11",
+        "class_id": "4",
+        "name": "Espargidor em Geral",
+        "cod_senasp": "MAT.02.004.0011"
+    },
+    {
+        "id": "12",
+        "class_id": "4",
+        "name": "Granada em Geral",
+        "cod_senasp": "MAT.02.004.0012"
+    },
+    {
+        "id": "13",
+        "class_id": "4",
+        "name": "Lançador de Granadas",
+        "cod_senasp": "MAT.02.004.0013"
+    },
+    {
+        "id": "14",
+        "class_id": "4",
+        "name": "Sinalizadores e Iluminadores",
+        "cod_senasp": "MAT.02.004.0014"
+    },
+    {
+        "id": "15",
+        "class_id": "5",
+        "name": "Bota Operacional",
+        "cod_senasp": "MAT.03.005.0015"
+    },
+    {
+        "id": "16",
+        "class_id": "5",
+        "name": "Calça Operacional",
+        "cod_senasp": "MAT.03.005.0016"
+    },
+    {
+        "id": "17",
+        "class_id": "5",
+        "name": "Camisa Operacional",
+        "cod_senasp": "MAT.03.005.0017"
+    },
+    {
+        "id": "18",
+        "class_id": "5",
+        "name": "Capacete em Geral (Motociclista ou Antitumulto ou Balístico)",
+        "cod_senasp": "MAT.03.005.0018"
+    },
+    {
+        "id": "19",
+        "class_id": "5",
+        "name": "Coldre para Pistola",
+        "cod_senasp": "MAT.03.005.0019"
+    },
+    {
+        "id": "20",
+        "class_id": "5",
+        "name": "Colete de Proteção Balística (NT SENASP nº 03/2021)",
+        "cod_senasp": "MAT.03.005.0020"
+    },
+    {
+        "id": "21",
+        "class_id": "5",
+        "name": "Cotoveleira  Operacional",
+        "cod_senasp": "MAT.03.005.0021"
+    },
+    {
+        "id": "22",
+        "class_id": "5",
+        "name": "Gandola Operacional",
+        "cod_senasp": "MAT.03.005.0022"
+    },
+    {
+        "id": "23",
+        "class_id": "5",
+        "name": "Joelheira Operacional",
+        "cod_senasp": "MAT.03.005.0023"
+    },
+    {
+        "id": "24",
+        "class_id": "5",
+        "name": "Lanterna Operacional",
+        "cod_senasp": "MAT.03.005.0024"
+    },
+    {
+        "id": "25",
+        "class_id": "5",
+        "name": "Luva em Geral (Motociclista ou Antitumulto ou Tática)",
+        "cod_senasp": "MAT.03.005.0025"
+    },
+    {
+        "id": "26",
+        "class_id": "5",
+        "name": "Macacão de Voo",
+        "cod_senasp": "MAT.03.005.0026"
+    },
+    {
+        "id": "27",
+        "class_id": "5",
+        "name": "Óculos em Geral (Motociclista ou Tático)",
+        "cod_senasp": "MAT.03.005.0027"
+    },
+    {
+        "id": "28",
+        "class_id": "5",
+        "name": "Perneira Operacional",
+        "cod_senasp": "MAT.03.005.0028"
+    },
+    {
+        "id": "29",
+        "class_id": "5",
+        "name": "Traje Anti-Fragmentação",
+        "cod_senasp": "MAT.03.005.0029"
+    },
+    {
+        "id": "30",
+        "class_id": "6",
+        "name": "Bomba costal; Abafador de fogo; Soprador costal; Conjunto de material de sapa; Drone; etc",
+        "cod_senasp": "MAT.04.006.0030"
+    },
+    {
+        "id": "31",
+        "class_id": "7",
+        "name": "Câmera térmica; Equipamento de Proteção Respiratória; Exaustor/ventilador; Escada; Conjunto de materiais de entrada forçada; Lanterna; etc",
+        "cod_senasp": "MAT.04.007.0031"
+    },
+    {
+        "id": "32",
+        "class_id": "8",
+        "name": "Capacete e proteção; Roupa de proteção; Botas de proteção; Máscara facial com/sem filtro; Luvas de proteção; Perneira; etc",
+        "cod_senasp": "MAT.04.008.0032"
+    },
+    {
+        "id": "33",
+        "class_id": "9",
+        "name": "Capacete de proteção; Roupa de proteção; Luvas de proteção; Botas de proteção; Balaclava; etc",
+        "cod_senasp": "MAT.04.009.0033"
+    },
+    {
+        "id": "34",
+        "class_id": "10",
+        "name": "Capacetes; Botas; Roupas; Luvas; Máscaras; Joelheiras; etc",
+        "cod_senasp": "MAT.04.010.0034"
+    },
+    {
+        "id": "35",
+        "class_id": "11",
+        "name": "Máscaras de gás; Equipamentos de respiração autônomos (SCBA); Equipamentos de respiração com fornecimento de ar (SABA); Detectores de gás; Ventiladores; Respiradores de partículas; etc",
+        "cod_senasp": "MAT.04.011.0035"
+    },
+    {
+        "id": "36",
+        "class_id": "12",
+        "name": "Cintos de segurança; Cordas de resgate; Macas aéreas; Pump Bucket; Equipamento de proteção contra quedas; Mosquetão; Freio 'Oito'; etc",
+        "cod_senasp": "MAT.04.012.0036"
+    },
+    {
+        "id": "37",
+        "class_id": "13",
+        "name": "Boias salva-vidas (Life Belt); Coletes salva-vidas; Cordas de resgate aquático; Pranchas de resgate; Trajes de mergulho; Kit de mergulho; etc",
+        "cod_senasp": "MAT.04.013.0037"
+    },
+    {
+        "id": "38",
+        "class_id": "14",
+        "name": "Desencarcerador; Conjuntos de primeiros socorros; Lanternas; Ferramentas de escavação; Equipamento de escalada; Sinalizadores; etc",
+        "cod_senasp": "MAT.04.014.0038"
+    },
+    {
+        "id": "39",
+        "class_id": "15",
+        "name": "Colchão e roupa de cama; Capacete; Gerador; Geradores portáteis; Barracas de emergência; etc",
+        "cod_senasp": "MAT.04.015.0039"
+    },
+    {
+        "id": "40",
+        "class_id": "16",
+        "name": "Individual e Coletivo para as diversas áreas de análises forense",
+        "cod_senasp": "MAT.05.016.0040"
+    },
+    {
+        "id": "41",
+        "class_id": "16",
+        "name": "Itens para etapa de armazenamento; Itens para etapa de transporte; Itens para etapa de acondicionamento; etc",
+        "cod_senasp": "MAT.05.016.0041"
+    },
+    {
+        "id": "42",
+        "class_id": "16",
+        "name": "Equipamentos para análise de reconhecimento facial informática e áudio e vídeo; Materiais de consumo para a criminalística; Equipamentos e instrumentação para coleta e análise de local de crime; Itens para captura de imagens; Equipamentos para coleta e análise de armas de fogo; etc",
+        "cod_senasp": "MAT.05.016.0042"
+    },
+    {
+        "id": "43",
+        "class_id": "16",
+        "name": "Equipamentos e instrumentação para coleta extração análise e obtenção de perfis genéticos; Materiais de laboratório para coleta extração análise e obtenção de perfis genéticos; Itens para captura de imagens; etc",
+        "cod_senasp": "MAT.05.016.0043"
+    },
+    {
+        "id": "44",
+        "class_id": "16",
+        "name": "Equipamentos tecnológicos para preparação de amostras e análise de vestígios químicos e biológicos; Materiais de laboratório e instrumentação para coleta preparação de amostras e análise de vestígios químicos e biológicos; Itens para captura de imagens;  etc",
+        "cod_senasp": "MAT.05.016.0044"
+    },
+    {
+        "id": "45",
+        "class_id": "16",
+        "name": "Equipamentos tecnológicos para análise e processamento em ossadas em cadáveres e em vivos; Materiais e instrumentação para coleta e análise em ossadas em cadáveres e em vivos; Itens para captura de imagens; etc",
+        "cod_senasp": "MAT.05.016.0045"
+    },
+    {
+        "id": "46",
+        "class_id": "16",
+        "name": "Materiais reveladores de impressões digitais; Equipamentos de captura e análise de biometria; Equipamentos tecnológicos para coleta análise e correlação de impressões digitais; etc",
+        "cod_senasp": "MAT.05.016.0046"
+    },
+    {
+        "id": "47",
+        "class_id": "17",
+        "name": "Bebedouro de Água",
+        "cod_senasp": "MAT.06.017.0047"
+    },
+    {
+        "id": "48",
+        "class_id": "17",
+        "name": "Condicionador de Ar (Ar-Condicionado)",
+        "cod_senasp": "MAT.06.017.0048"
+    },
+    {
+        "id": "49",
+        "class_id": "17",
+        "name": "Fogão a Gás",
+        "cod_senasp": "MAT.06.017.0049"
+    },
+    {
+        "id": "50",
+        "class_id": "17",
+        "name": "Forno a Gás",
+        "cod_senasp": "MAT.06.017.0050"
+    },
+    {
+        "id": "51",
+        "class_id": "17",
+        "name": "Forno de Micro-ondas",
+        "cod_senasp": "MAT.06.017.0051"
+    },
+    {
+        "id": "52",
+        "class_id": "17",
+        "name": "Refrigerador (Geladeira e Freezer)",
+        "cod_senasp": "MAT.06.017.0052"
+    },
+    {
+        "id": "53",
+        "class_id": "17",
+        "name": "Televisor",
+        "cod_senasp": "MAT.06.017.0053"
+    },
+    {
+        "id": "54",
+        "class_id": "18",
+        "name": "Armário em Geral (Escritório e Vestiário)",
+        "cod_senasp": "MAT.06.018.0054"
+    },
+    {
+        "id": "55",
+        "class_id": "18",
+        "name": "Beliche Metálica (com 02 leitos)",
+        "cod_senasp": "MAT.06.018.0055"
+    },
+    {
+        "id": "56",
+        "class_id": "18",
+        "name": "Cadeira em Geral (Escritório e Refeitório)",
+        "cod_senasp": "MAT.06.018.0056"
+    },
+    {
+        "id": "57",
+        "class_id": "18",
+        "name": "Gaveteiro para Escritório",
+        "cod_senasp": "MAT.06.018.0057"
+    },
+    {
+        "id": "58",
+        "class_id": "18",
+        "name": "Longarina em Geral (Escritório e Refeitório)",
+        "cod_senasp": "MAT.06.018.0058"
+    },
+    {
+        "id": "59",
+        "class_id": "18",
+        "name": "Mesa em Geral (Escritório e Refeitório)",
+        "cod_senasp": "MAT.06.018.0059"
+    },
+    {
+        "id": "60",
+        "class_id": "19",
+        "name": "Aeronave de Asa Fixa",
+        "cod_senasp": "MAT.07.019.0060"
+    },
+    {
+        "id": "61",
+        "class_id": "19",
+        "name": "Aeronave de Asa Rotativa",
+        "cod_senasp": "MAT.07.019.0061"
+    },
+    {
+        "id": "62",
+        "class_id": "19",
+        "name": "Aeronave Remotamente Controlada",
+        "cod_senasp": "MAT.07.019.0062"
+    },
+    {
+        "id": "63",
+        "class_id": "20",
+        "name": "Bote",
+        "cod_senasp": "MAT.07.020.0063"
+    },
+    {
+        "id": "64",
+        "class_id": "20",
+        "name": "Moto Aquática",
+        "cod_senasp": "MAT.07.020.0064"
+    },
+    {
+        "id": "65",
+        "class_id": "21",
+        "name": "Lancha",
+        "cod_senasp": "MAT.07.021.0065"
+    },
+    {
+        "id": "66",
+        "class_id": "22",
+        "name": "Bicicleta ou Diciclo ou Patinete Elétrico",
+        "cod_senasp": "MAT.07.022.0066"
+    },
+    {
+        "id": "67",
+        "class_id": "22",
+        "name": "Motocicleta com mínimo de 250 CC",
+        "cod_senasp": "MAT.07.022.0067"
+    },
+    {
+        "id": "68",
+        "class_id": "23",
+        "name": "Veículo Especial tipo: Resgate",
+        "cod_senasp": "MAT.07.023.0068"
+    },
+    {
+        "id": "69",
+        "class_id": "23",
+        "name": "Veículo Especial tipo: Ambulância",
+        "cod_senasp": "MAT.07.023.0069"
+    },
+    {
+        "id": "70",
+        "class_id": "23",
+        "name": "Veículo Especial tipo: Autobomba Tanque",
+        "cod_senasp": "MAT.07.023.0070"
+    },
+    {
+        "id": "71",
+        "class_id": "23",
+        "name": "Veículo Especial tipo: Autoescada",
+        "cod_senasp": "MAT.07.023.0071"
+    },
+    {
+        "id": "72",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional de busca e apoio para aplicação fora de estrada com tração 4x4",
+        "cod_senasp": "MAT.07.024.0072"
+    },
+    {
+        "id": "73",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional de busca e apoio para aplicação mista urbana e rural com tração 4x2 ou 4x4",
+        "cod_senasp": "MAT.07.024.0073"
+    },
+    {
+        "id": "74",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional de busca e apoio para aplicação rodoviária e urbana com tração 4x2",
+        "cod_senasp": "MAT.07.024.0074"
+    },
+    {
+        "id": "75",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional do tipo descaracterizado com tração 4x2 ou 4x4 para aplicação rodoviária urbana rural ou fora de estrada",
+        "cod_senasp": "MAT.07.024.0075"
+    },
+    {
+        "id": "76",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional geral para aplicação fora de estrada com tração 4x4",
+        "cod_senasp": "MAT.07.024.0076"
+    },
+    {
+        "id": "77",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional geral para aplicação mista urbana e rural com tração 4x2 ou 4x4",
+        "cod_senasp": "MAT.07.024.0077"
+    },
+    {
+        "id": "78",
+        "class_id": "24",
+        "name": "Veículo leve para emprego operacional geral para aplicação rodoviária e urbana com tração 4x2",
+        "cod_senasp": "MAT.07.024.0078"
+    },
+    {
+        "id": "79",
+        "class_id": "25",
+        "name": "Caminhão",
+        "cod_senasp": "MAT.07.025.0079"
+    },
+    {
+        "id": "80",
+        "class_id": "25",
+        "name": "Micro-Ônibus",
+        "cod_senasp": "MAT.07.025.0080"
+    },
+    {
+        "id": "81",
+        "class_id": "25",
+        "name": "Ônibus",
+        "cod_senasp": "MAT.07.025.0081"
+    },
+    {
+        "id": "82",
+        "class_id": "26",
+        "name": "Munição Letal para Arma de Alma Lisa",
+        "cod_senasp": "MAT.08.026.0082"
+    },
+    {
+        "id": "83",
+        "class_id": "26",
+        "name": "Munição Letal para Calibre de Alta Velocidade",
+        "cod_senasp": "MAT.08.026.0083"
+    },
+    {
+        "id": "84",
+        "class_id": "26",
+        "name": "Munição Letal para Calibre de Baixa Velocidade",
+        "cod_senasp": "MAT.08.026.0084"
+    },
+    {
+        "id": "85",
+        "class_id": "27",
+        "name": "Munição Não-Letal para Arma de Alma Lisa",
+        "cod_senasp": "MAT.08.027.0085"
+    },
+    {
+        "id": "86",
+        "class_id": "28",
+        "name": "Radiocomunicação Crítica preferencialmente (não mandatório) no protocolo TETRA ou do tipo: Long Term Evolution - LTE ou de Tecnologia Similar",
+        "cod_senasp": "MAT.09.028.0086"
+    },
+    {
+        "id": "87",
+        "class_id": "29",
+        "name": "Equipamentos Aparelhos e Materiais à Prática de Atividade Física (Ginástica e Musculação)",
+        "cod_senasp": "MAT.10.029.0087"
+    },
+    {
+        "id": "88",
+        "class_id": "29",
+        "name": "Equipamentos Aparelhos e Materiais Ambulatoriais",
+        "cod_senasp": "MAT.10.029.0088"
+    },
+    {
+        "id": "89",
+        "class_id": "29",
+        "name": "Equipamentos Aparelhos e Materiais de Fisioterapia",
+        "cod_senasp": "MAT.10.029.0089"
+    },
+    {
+        "id": "90",
+        "class_id": "29",
+        "name": "Equipamentos Aparelhos e Materiais Médico-Hospitalares",
+        "cod_senasp": "MAT.10.029.0090"
+    },
+    {
+        "id": "91",
+        "class_id": "29",
+        "name": "Equipamentos Aparelhos e Materiais Odontológicos",
+        "cod_senasp": "MAT.10.029.0091"
+    },
+    {
+        "id": "92",
+        "class_id": "29",
+        "name": "Kit para APH-Tático (Atendimento Pré-Hospitalar Tático) e seus Insumos",
+        "cod_senasp": "MAT.10.029.0092"
+    },
+    {
+        "id": "93",
+        "class_id": "30",
+        "name": "Equino",
+        "cod_senasp": "MAT.11.030.0093"
+    },
+    {
+        "id": "94",
+        "class_id": "31",
+        "name": "Canino",
+        "cod_senasp": "MAT.11.031.0094"
+    },
+    {
+        "id": "95",
+        "class_id": "32",
+        "name": "Câmera IP",
+        "cod_senasp": "MAT.12.032.0095"
+    },
+    {
+        "id": "96",
+        "class_id": "32",
+        "name": "Câmeras Corporais (Bodycam)",
+        "cod_senasp": "MAT.12.032.0096"
+    },
+    {
+        "id": "97",
+        "class_id": "32",
+        "name": "Videomonitoramento",
+        "cod_senasp": "MAT.12.032.0097"
+    },
+    {
+        "id": "98",
+        "class_id": "33",
+        "name": "Microcomputador",
+        "cod_senasp": "MAT.12.033.0098"
+    },
+    {
+        "id": "99",
+        "class_id": "33",
+        "name": "Notebook",
+        "cod_senasp": "MAT.12.033.0099"
+    },
+    {
+        "id": "100",
+        "class_id": "33",
+        "name": "Servidor",
+        "cod_senasp": "MAT.12.033.0100"
+    },
+    {
+        "id": "101",
+        "class_id": "34",
+        "name": "Impressora 3D",
+        "cod_senasp": "MAT.12.034.0101"
+    },
+    {
+        "id": "102",
+        "class_id": "34",
+        "name": "Impressora Cartão/Crachá",
+        "cod_senasp": "MAT.12.034.0102"
+    },
+    {
+        "id": "103",
+        "class_id": "34",
+        "name": "Impressora Jato de Tinta",
+        "cod_senasp": "MAT.12.034.0103"
+    },
+    {
+        "id": "104",
+        "class_id": "34",
+        "name": "Impressora Laser",
+        "cod_senasp": "MAT.12.034.0104"
+    },
+    {
+        "id": "105",
+        "class_id": "35",
+        "name": "Firewall",
+        "cod_senasp": "MAT.12.035.0105"
+    },
+    {
+        "id": "106",
+        "class_id": "35",
+        "name": "Roteador",
+        "cod_senasp": "MAT.12.035.0106"
+    },
+    {
+        "id": "107",
+        "class_id": "35",
+        "name": "Switch",
+        "cod_senasp": "MAT.12.035.0107"
+    },
+    {
+        "id": "108",
+        "class_id": "36",
+        "name": "Licença de Software",
+        "cod_senasp": "MAT.12.036.0108"
+    },
+    {
+        "id": "109",
+        "class_id": "37",
+        "name": "Desenvolvimento de Documentos Técnicos e Projetos Gráficos",
+        "cod_senasp": "SER.13.037.0109"
+    },
+    {
+        "id": "110",
+        "class_id": "38",
+        "name": "Serviço Áudiovisual",
+        "cod_senasp": "SER.13.038.0110"
+    },
+    {
+        "id": "111",
+        "class_id": "38",
+        "name": "Serviço de Publicidade",
+        "cod_senasp": "SER.13.038.0111"
+    },
+    {
+        "id": "112",
+        "class_id": "38",
+        "name": "Serviço Gráfico",
+        "cod_senasp": "SER.13.038.0112"
+    },
+    {
+        "id": "113",
+        "class_id": "39",
+        "name": "Seminários; Congressos; Palestras; etc",
+        "cod_senasp": "SER.13.039.0113"
+    },
+    {
+        "id": "114",
+        "class_id": "40",
+        "name": "Cursos; Pós-Graduação; Instrução/Hora-Aula; etc",
+        "cod_senasp": "SER.13.040.0114"
+    },
+    {
+        "id": "115",
+        "class_id": "41",
+        "name": "Planejamento; Financiamento; Prestação de Contas; Transparência; Risco e Compliance; etc",
+        "cod_senasp": "SER.13.041.0115"
+    },
+    {
+        "id": "116",
+        "class_id": "42",
+        "name": "Execução de Obra (Construção ou Reforma e/ou Ampliação) ou Manutenção Predial",
+        "cod_senasp": "SER.13.042.0116"
+    },
+    {
+        "id": "117",
+        "class_id": "43",
+        "name": "Desenvolvimento Instalação e Suporte para Radiocomunicação Crítica entre outros sistemas",
+        "cod_senasp": "SER.13.043.0117"
+    },
+    {
+        "id": "118",
+        "class_id": "44",
+        "name": "Atendimento em Segurança e Saúde no Trabalho",
+        "cod_senasp": "SER.13.044.0118"
+    },
+    {
+        "id": "119",
+        "class_id": "44",
+        "name": "Atendimento Fisioterapeutico",
+        "cod_senasp": "SER.13.044.0119"
+    },
+    {
+        "id": "120",
+        "class_id": "44",
+        "name": "Atendimento Médico",
+        "cod_senasp": "SER.13.044.0120"
+    },
+    {
+        "id": "121",
+        "class_id": "44",
+        "name": "Atendimento Odontológico",
+        "cod_senasp": "SER.13.044.0121"
+    },
+    {
+        "id": "122",
+        "class_id": "44",
+        "name": "Atendimento Psicossocial",
+        "cod_senasp": "SER.13.044.0122"
+    },
+    {
+        "id": "123",
+        "class_id": "45",
+        "name": "Desenvolvimento de Software",
+        "cod_senasp": "SER.13.045.0123"
+    },
+    {
+        "id": "124",
+        "class_id": "45",
+        "name": "Licenças Diversas",
+        "cod_senasp": "SER.13.045.0124"
+    },
+    {
+        "id": "125",
+        "class_id": "45",
+        "name": "Operadora para Transmissão de Dados (Internet)",
+        "cod_senasp": "SER.13.045.0125"
+    },
+    {
+        "id": "126",
+        "class_id": "45",
+        "name": "Solução Integrada de Gerenciamento de Projetos Programas e Portfólio",
+        "cod_senasp": "SER.13.045.0126"
+    }
+]
+}

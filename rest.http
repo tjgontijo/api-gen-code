@@ -1,0 +1,24 @@
+POST http://127.0.0.1:3333/types HTTP/1.1
+content-type: application/json
+
+{
+    "type": "Serviço"
+}
+
+###
+GET http://127.0.0.1:3333/group-type/2 HTTP/1.1
+###
+GET http://127.0.0.1:3333/class-group/13 HTTP/1.1
+###
+GET http://127.0.0.1:3333/item-class/39 HTTP/1.1
+###
+GET http://127.0.0.1:3333/items/3 HTTP/1.1
+
+
+
+###
+GET http://127.0.0.1:3333/types?type=Servi%C3%A7o HTTP/1.1
+
+
+###
+DELETE http://127.0.0.1:3333/types/b2cde802-4469-42f9-ae51-437ed74be558
