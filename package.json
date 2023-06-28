@@ -1,9 +1,12 @@
 {
-  "name": "gen-code-01",
+  "name": "api-gen-code",
   "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "dev": "node --watch ./src/server.js"
   },
